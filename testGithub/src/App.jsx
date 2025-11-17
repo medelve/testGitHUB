@@ -3,33 +3,94 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+// Main application component
+
+// Liste rendern, und in unorderd List anzeigen
+
+
+
+
+// Component Hierarchie:
+// App
+//  ├─ ListComponent
+//  └─ ButtonComponent
+
+// What is a React Component?
+// - A function that returns JSX (via return statement)
+// - Can accept input via "props" (properties)
+// - Can manage its own state (via useState hook, not shown here)
+
+// What is JSX?
+// - JavaScript XML
+// - Allows to write HTML-like code in JavaScript
+
+// What are props?
+// - Passed as an object to the component function (its just a object)
+// - Used to customize the component's behavior and appearance
+
+
+//Aufgabe a Liste darstellen
+//Aufgabe b Liste wenn leer fehler anzeigen
+// Aufgabe c liste als input prop, soll anzeigen ob ist legal oder nicht, show legal false, 
+
+
+
+function App() {
+
+    const items = [
+        { id: 1, name: "Item 1", isLegal: true, price: 10, description: "Legal item" },
+        { id: 2, name: "Item 2", isLegal: false, price: 20, description: "Illegal item" },
+    ];
+
+    function handleClick() {
+        console.log("Meine Button Komponente wurde geklickt");
+    }
+
+    // Render App component
+    return (
+        <div>
+            <h1>React Demo</h1>
+            <ListComponent items={items} />
+            <ButtonComponent onClick={handleClick} />
+        </div>
+    );
 }
+
+
+function ListComponent(props) {
+   
+    const items = props.items;
+
+    // Render empty list message
+    if (items.length === 0) {
+        return <p>Die Liste ist leer.</p>;
+    }
+
+    // Render item list
+    return (
+        <ul>
+           {item.filter(item.isLegal)}
+            {items.map(item => (
+                <li key={item.id}>{item.name}</li>
+            ))}
+        </ul>
+    );
+}
+
+// function ButtonComponent({ onClick }) { // Destructuring Variante
+function ButtonComponent(props) {
+    // Callback is a function passed via props
+    const onClick = props.onClick;
+
+    // Render button
+    return (
+        <button onClick={onClick}>
+            Klicke mich
+        </button>
+    );
+}
+
 
 export default App

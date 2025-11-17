@@ -1,0 +1,14 @@
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\bin\Debug\net9.0\AutoConsoleApp.exe
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\bin\Debug\net9.0\AutoConsoleApp.deps.json
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\bin\Debug\net9.0\AutoConsoleApp.runtimeconfig.json
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\bin\Debug\net9.0\AutoConsoleApp.dll
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\bin\Debug\net9.0\AutoConsoleApp.pdb
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.AssemblyInfo.cs
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.dll
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\refint\AutoConsoleApp.dll
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.pdb
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\AutoConsoleApp.genruntimeconfig.cache
+C:\Users\dell\Desktop\Schule\POSWMC\AutoConsoleApp\AutoConsoleApp\obj\Debug\net9.0\ref\AutoConsoleApp.dll
